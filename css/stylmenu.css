@@ -1,0 +1,194 @@
+
+.rd-navbar-wrap {
+    transition: .3s all ease;
+}
+.rd-navbar-wrap {
+    transition: 0.3s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.rd-navbar-static {
+    display: block;
+}
+.rd-navbar-static, .rd-navbar-sidebar, .rd-navbar-fullwidth {
+    position: relative;
+    z-index: 10;
+}
+.rd-navbar {
+    display: none;
+    background: #003c5a;
+    box-shadow: none;
+}
+.rd-navbar{
+    transition: .3s all ease;
+}
+@media (min-width: 1200px) {
+    .rd-navbar-static .rd-navbar-inner, .rd-navbar-fullwidth .rd-navbar-inner {
+        padding-top: 35px;
+        padding-bottom: 27px;
+    }
+}
+.rd-navbar-static .rd-navbar-inner, .rd-navbar-fullwidth .rd-navbar-inner {
+    position: relative;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+.rd-navbar-static .rd-navbar-panel {
+    text-align: left;
+    min-width: 300px;
+}
+.rd-navbar-static .rd-navbar-panel, .rd-navbar-static .rd-navbar-nav-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+.rd-navbar-panel {
+    transition: .3s all ease;
+}
+.rd-navbar-toggle {
+  /*  display: inline-block;*/
+    position: relative;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    color: #555555;
+    display: none;
+}
+a, button, input {
+    transition: .3s all ease;
+}
+button, input[type='button'], input[type='submit'] {
+    cursor: pointer;
+}
+button, input, textarea, select {
+    display: inline-block;
+    -webkit-appearance: none;
+    outline: none;
+    color: inherit;
+    overflow: visible;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: top;
+}
+.rd-navbar-static .rd-navbar-brand, .rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-static .rd-navbar-search-toggle, .rd-navbar-fullwidth .rd-navbar-brand, .rd-navbar-fullwidth .rd-navbar-nav > li > a, .rd-navbar-fullwidth .rd-navbar-search-toggle {
+    position: relative;
+    z-index: 2;
+}
+.rd-navbar-brand {
+    font: 700 30px/62px "Merriweather", serif;
+    color: #edf4f8;
+    text-transform: none;
+}
+.brand-name {
+    transition: .3s all ease;
+}
+a, button, input {
+    transition: .3s all ease;
+}
+a, a[href^="tel:"], a[href^="callto:"] {
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+.rd-navbar-static .fixed-fullwidth-visible, .rd-navbar-sidebar .fixed-fullwidth-visible {
+    display: none;
+}
+.rd-navbar-static .rd-navbar-panel {
+    text-align: left;
+    min-width: 300px;
+}
+a, button, input {
+    transition: .3s all ease;
+}
+button, input[type='button'], input[type='submit'] {
+    cursor: pointer;
+}
+button{
+    display: inline-block;
+    -webkit-appearance: none;
+    outline: none;
+    color: inherit;
+    overflow: visible;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+}
+button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+dd {
+    display: block;
+    -webkit-margin-start: 40px;
+}
+
+a, a[href^="tel:"], a[href^="callto:"] {
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.rd-navbar-static .rd-navbar-nav-wrap {
+    width: 100%;
+}
+.rd-navbar-static .rd-navbar-panel, .rd-navbar-static .rd-navbar-nav-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+.rd-navbar-static .rd-navbar-nav-wrap, .rd-navbar-fullwidth .rd-navbar-nav-wrap {
+    padding-right: 36px;
+    padding-top: 5px;
+    text-align: left;
+}
+.rd-navbar-static .rd-navbar-nav {
+    margin-left: -2px;
+}
+.rd-navbar-nav{
+    transition: .3s all ease;
+}
+ol, ul {
+    list-style: none;
+}
+
+.rd-navbar-static .rd-navbar-nav > li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+/*stylr du carousel*/
